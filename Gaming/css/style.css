@@ -74,7 +74,8 @@
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('../img/back.jpg') no-repeat center center/cover;
+    background: url('../img/back.jpg') no-repeat center center;
+    background-size: cover;
     height: 742px;
     top:0px;
     left:0px;
@@ -176,7 +177,7 @@
 #contact::before{
     content: "";
     position: absolute;
-    background: url('/Projects/Gaming/img/back.jpg') no-repeat center center/cover;
+    background: url('/Projects/Gaming/img/back1.jpg') no-repeat center center/cover;
     width: 100%;
     height: 100%;
     z-index: -1;
